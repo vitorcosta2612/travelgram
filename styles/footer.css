@@ -9,3 +9,20 @@ footer {
 footer span:nth-child(1) {
     margin-right: auto;
 }
+
+@media (width <= 25em) {
+    footer {
+        display: block;
+        padding-block: 2rem;
+        text-align: center;
+    }
+    footer span:first-child {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    footer span:nth-child(2),
+    footer span:nth-child(3) {
+        margin-inline: .5rem;
+    }
+}

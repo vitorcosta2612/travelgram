@@ -5,7 +5,20 @@ main {
     padding-block: 24px;
 }
 
-main img{
+main img {
     width: 286px;
     height: 286px;
+}
+
+@media (width <= 25em) {
+    main {
+        display: block;
+        padding: 0;
+    }
+
+    main img {
+            width: 328px;
+            height: 328px;
+            margin-top: 1rem;
+    }
 }

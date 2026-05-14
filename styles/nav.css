@@ -19,3 +19,19 @@ nav ul li:last-child img {
     width: 40px;
     height: 40px;
 }
+
+@media (width <= 25em) {
+    nav ul li:nth-child(2),
+    nav ul li:nth-child(3) {
+        display: none;
+    }
+
+    nav ul {
+        margin-left: auto;
+    }
+
+    nav.container {
+        padding-block: 1.25rem;
+        padding-inline: 1rem;
+    }
+}
